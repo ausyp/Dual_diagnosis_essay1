@@ -1,0 +1,42 @@
+\documentclass[a4paper,man,british]{apa6}
+\usepackage[british]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes}
+\usepackage[hidelinks]{hyperref}
+\usepackage[style=apa]{biblatex}
+\DeclareLanguageMapping{british}{british-apa}
+
+% maps apacite commands to biblatex commands
+\let \citeNP \cite
+\let \citeA \textcite
+\let \cite \parencite
+
+\addbibresource{zotero_references.bib}
+\addbibresource{bibliography.bib}
+
+\title{Description and critique of a health promotion campaign}
+\shorttitle{health promotion campaigns}
+\author{Austin Paul}
+\affiliation{RMIT UNIVERSITY \\ s3634517}
+
+
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+Intro \citeA{barratt_global_2018} jkkg \cite{schneider1952lumped}
+dkpd
+\section{History}
+
+\newpage
+\section{Conclusion}
+
+vgtffth
+
+\printbibliography
+
+
+\end{document}
